@@ -16,6 +16,13 @@ The example includes to following operations:
 5. Use the SCAN operation to display the contents of the table
 6. Calculate the sum of salaries for all departments
 
+HBase Shell Commands:
+1. create 'EMP', 'EMP_DETAILS', 'PERSONAL_DETAILS'
+Description: Create a table named EMP with two column families. Columns can be added dynamically but, the column families must be    specified at the time of creating the table.
+
+2. scan 'EMP'
+Description: Retrieve all cells stored in a table named EMP from HBase.
+
 The following maven dependency is required to run the code: org.apache.hbase:hbase-client:1.2.0
 
 To provide feedback or for questions, please send an email to: prateeksheel86@gmail.com
