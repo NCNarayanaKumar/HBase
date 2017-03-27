@@ -23,6 +23,4 @@ Description: Create a table named EMP with two column families. Columns can be a
 2. scan 'EMP'
 Description: Retrieve all cells stored in a table named EMP from HBase.
 
-The following maven dependency is required to run the code: org.apache.hbase:hbase-client:1.2.0
-
 To provide feedback or for questions, please send an email to: prateeksheel86@gmail.com
