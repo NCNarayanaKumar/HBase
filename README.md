@@ -18,9 +18,11 @@ The example includes to following operations:
 
 HBase Shell Commands:
 1. create 'EMP', 'EMP_DETAILS', 'PERSONAL_DETAILS'
+
 Description: Create a table named EMP with two column families. Columns can be added dynamically but, the column families must be    specified at the time of creating the table.
 
 2. scan 'EMP'
+
 Description: Retrieve all cells stored in a table named EMP from HBase.
 
 To provide feedback or for questions, please send an email to: prateeksheel86@gmail.com
