@@ -17,7 +17,7 @@ public class HBaseExample {
     /**
      * Name of the file to be read which contains input data
      */
-    private static final String fileName = "/home/cloudera/workspace/src/com/example/hbase/data.txt";
+    private static final String fileName = "data.txt";
 
     /**
      * Table name in which to insert the records
@@ -83,7 +83,8 @@ public class HBaseExample {
         HTable table = null;
         try{
             //Instantiate File and Scanner
-            File file = new File(fileName);
+            ClassLoader classLoader = getClass().getClassLoader();
+            File file = new File(classLoader.getResource(fileName).getFile());
             Scanner inputScanner = new Scanner(file);
 
             //Create HBase Configuration Object and HTable Object
