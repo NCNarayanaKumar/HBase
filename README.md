@@ -25,4 +25,4 @@ Description: Create a table named EMP with two column families. Columns can be a
 
 Description: Retrieve all cells stored in a table named EMP from HBase.
 
-To provide feedback or for questions, please send an email to: prateeksheel86@gmail.com
+To provide feedback or for questions, please send an email to: sheelprateek@gmail.com
